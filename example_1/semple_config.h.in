@@ -1,0 +1,2 @@
+#define Semple_VERSION_MAJOR @semple_VERSION_MAJOR@
+#define Semple_VERSION_MINOR @semple_VERSION_MINOR@
