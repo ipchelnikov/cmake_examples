@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <memory>
 
-
 #include "semple_config.h"
+
 
 int main(int argc, char* argv[])
 {
@@ -10,6 +10,5 @@ int main(int argc, char* argv[])
 
     int a = 0;
     auto addr = std::to_address(&a); // Use c++20 feature, to check it is available
-    printf("Addr: %p", addr);
-    
+    printf("Addr: %p\n", addr);
 }
