@@ -3,6 +3,7 @@
 
 #include "semple_config.h"
 
+#include "my_library.h"
 
 int main(int argc, char* argv[])
 {
@@ -11,4 +12,6 @@ int main(int argc, char* argv[])
     int a = 0;
     auto addr = std::to_address(&a); // Use c++20 feature, to check it is available
     printf("Addr: %p\n", addr);
+
+    my_library_function();
 }
